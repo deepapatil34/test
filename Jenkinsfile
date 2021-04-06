@@ -12,6 +12,7 @@ pipeline {
                 make
                 ./ABC.exe
                 echo "test webhook"
+                echo "testing poll scm"
                 rm -rf *.o ABC.exe
                 '''
             }

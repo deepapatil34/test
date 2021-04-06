@@ -8,8 +8,9 @@ pipeline {
                 #!/bin/bash
                 echo 'Hello World'
                 
-                cd 'c pipeline project'
+                cd /var/lib/jenkins/workspace/'c pipeline project'
                 make
+                ./ABC.exe
                 rm -rf *.o ABC.exe
                 '''
             }

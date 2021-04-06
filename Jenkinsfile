@@ -10,7 +10,6 @@ pipeline {
                 
                 cd 'c pipeline project'
                 make
-                ./ABC.exe
                 rm -rf *.o ABC.exe
                 '''
             }

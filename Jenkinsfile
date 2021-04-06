@@ -8,7 +8,7 @@ pipeline {
                 #!/bin/bash
                 echo 'Hello World'
                 
-                cd test
+                cd 'c pipeline project'
                 make
                 ABC.exe
                 rm -rf *.o ABC.exe
